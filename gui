@@ -1,0 +1,149 @@
+--Pickles script hub
+
+local Main = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local KATGUI = Instance.new("TextButton")
+local CAAC = Instance.new("TextButton")
+local AlphaX = Instance.new("TextButton")
+local SpicyBagelHub = Instance.new("TextButton")
+local Antartichub = Instance.new("TextButton")
+local MM2Coins = Instance.new("TextButton")
+local EpicBloxburgThing = Instance.new("TextButton")
+local RoCitizensINFINITEMONEY = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame.Position = UDim2.new(0.302469134, 0, 0.486622095, 0)
+Frame.Size = UDim2.new(0, 443, 0, 203)
+Main.Active = true
+Main.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+TextLabel.Size = UDim2.new(0, 443, 0, 34)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Pickles script hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 253, 252)
+TextLabel.TextSize = 16.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+TextLabel_2.Position = UDim2.new(0, 0, 0.753694594, 0)
+TextLabel_2.Size = UDim2.new(0, 443, 0, 50)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "More scipts soon!"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 16.000
+
+KATGUI.Name = "KAT GUI"
+KATGUI.Parent = Main
+KATGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KATGUI.Position = UDim2.new(0.302469134, 0, 0.543478251, 0)
+KATGUI.Size = UDim2.new(0, 94, 0, 50)
+KATGUI.Font = Enum.Font.SourceSans
+KATGUI.Text = "KAT GUI"
+KATGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+KATGUI.TextSize = 14.000
+KATGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/mememasterboi/a-lot-of-scripts/master/Output%20(6).lua'),true))()
+end)
+
+CAAC.Name = "CAAC"
+CAAC.Parent = KATGUI
+CAAC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CAAC.Position = UDim2.new(1.2705543, 0, -0.0165217519, 0)
+CAAC.Size = UDim2.new(0, 94, 0, 50)
+CAAC.Font = Enum.Font.SourceSans
+CAAC.Text = "CAAC"
+CAAC.TextColor3 = Color3.fromRGB(0, 0, 0)
+CAAC.TextSize = 14.000
+CAAC.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/8zbBwCUZ")
+end)
+
+AlphaX.Name = "Alpha X"
+AlphaX.Parent = CAAC
+AlphaX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AlphaX.Position = UDim2.new(1.22800112, 0, 0.00347822905, 0)
+AlphaX.Size = UDim2.new(0, 94, 0, 50)
+AlphaX.Font = Enum.Font.SourceSans
+AlphaX.Text = "Alpha X"
+AlphaX.TextColor3 = Color3.fromRGB(0, 0, 0)
+AlphaX.TextSize = 14.000
+AlphaX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://alpha1004.tech/scripts/AlphaX.lua"))()
+end)
+
+SpicyBagelHub.Name = "Spicy Bagel Hub"
+SpicyBagelHub.Parent = AlphaX
+SpicyBagelHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpicyBagelHub.Position = UDim2.new(1.20672441, 0, 0.00347822905, 0)
+SpicyBagelHub.Size = UDim2.new(0, 94, 0, 50)
+SpicyBagelHub.Font = Enum.Font.SourceSans
+SpicyBagelHub.Text = "Spicy Bagel Hub"
+SpicyBagelHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpicyBagelHub.TextSize = 14.000
+SpicyBagelHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/The3Bakers/Spicy-Bagel/main/SpicyBagelHub.lua"))()
+end)
+
+Antartichub.Name = "Antartic hub"
+Antartichub.Parent = SpicyBagelHub
+Antartichub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Antartichub.Position = UDim2.new(-0.00604149699, 0, 1.30347824, 0)
+Antartichub.Size = UDim2.new(0, 94, 0, 50)
+Antartichub.Font = Enum.Font.SourceSans
+Antartichub.Text = "Antartic Hub"
+Antartichub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Antartichub.TextSize = 14.000
+Antartichub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/Antarctic-Hub/main/New.lua", true))()
+end)
+
+MM2Coins.Name = "MM2 Coins"
+MM2Coins.Parent = Antartichub
+MM2Coins.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2Coins.Position = UDim2.new(-1.20816922, 0, -0.0165217519, 0)
+MM2Coins.Size = UDim2.new(0, 94, 0, 50)
+MM2Coins.Font = Enum.Font.SourceSans
+MM2Coins.Text = "MM2 Coin Farm"
+MM2Coins.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2Coins.TextSize = 14.000
+MM2Coins.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Sumithebestak/MM2/main/MM2PathWalkFarm'))()
+end)
+
+EpicBloxburgThing.Name = "Epic Bloxburg Thing"
+EpicBloxburgThing.Parent = MM2Coins
+EpicBloxburgThing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EpicBloxburgThing.Position = UDim2.new(-1.22944582, 0, 0.00347822905, 0)
+EpicBloxburgThing.Size = UDim2.new(0, 94, 0, 50)
+EpicBloxburgThing.Font = Enum.Font.SourceSans
+EpicBloxburgThing.Text = "Bloxburg autofarm"
+EpicBloxburgThing.TextColor3 = Color3.fromRGB(0, 0, 0)
+EpicBloxburgThing.TextSize = 14.000
+EpicBloxburgThing.MouseButton1Down:connect(function()
+	shared.whitelist_key = "key_fklgYsfF";
+	local content = game:HttpGet("https://sor.cool/whitelist/getfile.lua?ID=Nzc4Mzg0OTk5Mjk2MjcwMzc2&type=script")
+	assert(loadstring(content))()
+end)
+
+RoCitizensINFINITEMONEY.Name = "RoCitizens INFINITE MONEY"
+RoCitizensINFINITEMONEY.Parent = EpicBloxburgThing
+RoCitizensINFINITEMONEY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoCitizensINFINITEMONEY.Position = UDim2.new(-1.271999, 0, -0.0165217519, 0)
+RoCitizensINFINITEMONEY.Size = UDim2.new(0, 94, 0, 50)
+RoCitizensINFINITEMONEY.Font = Enum.Font.SourceSans
+RoCitizensINFINITEMONEY.Text = "RoCitizens Money"
+RoCitizensINFINITEMONEY.TextColor3 = Color3.fromRGB(0, 0, 0)
+RoCitizensINFINITEMONEY.TextSize = 14.000
+RoCitizensINFINITEMONEY.MouseButton1Down:connect(function()
+	game.Workspace.CommunicationRelays.Transaction.BuyItem:InvokeServer('Food', {['Name']='Apple',['Shop']='Sex Shop',['Quantity']= -(9999999999999/5)})
+end)
